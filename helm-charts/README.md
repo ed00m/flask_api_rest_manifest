@@ -12,3 +12,5 @@ Are included in this repo, in directory k8s
 ### Helm templating
 
 The charts included in this repo, create a deployment with 2 replicas, the number of replicas are in values.yaml, create services with type ClusterIP/LoadBalancer*/NodePort, create a namespace and ingresses by service type to allow traffic to the deployments pod.
+
+(*) Internal and External LoadBalancers
