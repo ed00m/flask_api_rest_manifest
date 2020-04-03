@@ -14,6 +14,9 @@
 * helm install helm-charts/ --generate-name
 * helm install NAME_SERVICE helm-charts/ --set global.namespace=NAMESPACE
 
+## Installation with kubectl
+* kubectl apply -f k8s/
+
 ## Validation
 * kubectl --namespace=NAMESPACE get all
 
